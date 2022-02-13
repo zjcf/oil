@@ -7,11 +7,11 @@ import 'screens/wallet.dart';
 
 class Customer {
   static final routes = {
-    Login.routeName: (context) => const Login(),
+    Login.routeName: (context) =>  Login(),
     Home.routeName: (context) => const Home(),
     Profile.routeName: (context) => const Profile(),
     Order.routeName: (context) => const Order(),
     Wallet.routeName: (context) => const Wallet(),
-    Captcha.routeName: (context) => const Captcha(),
+    Captcha.routeName: (context) =>  Captcha(),
   };
 }
